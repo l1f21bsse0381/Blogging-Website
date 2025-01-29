@@ -14,8 +14,8 @@ jobs:
 
       - name: Lint HTML and CSS assets
         run: |
-          npx htmlhint "**/.html"
-          npx stylelint "**/.css"
+          npx htmlhint "**/*.html"
+          npx stylelint "**/*.css"
 
       - name: Build websitegit 
         run: |
